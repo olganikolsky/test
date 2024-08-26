@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Форматирование текста, мультимедиа</title>
+	</head>
+
+	<body>
+<header>
+<h1>Мой сайт</h1>
+</header>
+<p>Меня зовут Оля и это мой второй сайт.</p>
+
+<h2>Мое видео</h2>
+<video src="Будущее здесь_ ТОП-10 самых футуристических гаджетов - Google Chrome 2020-04-13 22-02-47.mp4" width="500" controls>
+	Ваш браузер не поддерживает воспроизведение видео
+</video>
+
+<h2>Моя музыка</h2>
+<audio src="ANNA_ASTI_-_Po_baram_74376135.mp3" controls>
+	Аудио не поддерживается
+</audio>
+
+<h2>Интерактивный объект</h2>
+<embed src="Poryadok_naznacheniya_i_vyplaty_materialnoj_podderzhki_nuzhdajuschimsya_obuchajuschimsya_KFU_ot_30_05_2016_g_v_red_ot_16_0 (1).pdf" type="application/pdf" width="800" height="500">
+</body>
+</html>
+
+<h2>Форма для сбора данных</h2>
+<form action="/submit_form" method="post">
+	<label for id="name">Введите ваше имя</label>
+	<input type="text" id="name" name="name">
+</form> <br>
+
+<form action="/submit_form" method="post">
+	<label for id="password">Пароль</label>
+	<input type="password" id="password" name="password">
+</form> <br>
+
+<form action="/submit_form" method="post">
+	<label for id="section">Выберите ваш город</label>
+	<select id="section" name="city">
+		<option value="moscow">Москва</option>
+		<option value="kazan">Казань</option>
+		<option value="spb">Санкт-Петербург</option>
+	</select>
+</form> <br>
+
+<form>
+	<label>Ваши интересы</label><br>
+
+	<input type="checkbox" id="hobby1" name="hobby" value="reading">
+	<label for="hobby">Чтение</label> <br>
+	<input type="checkbox" id="hobby2" name="hobby" value="travelling">
+	<label for="hobby">Путешествия</label> <br>
+	<input type="checkbox" id="hobby3" name="hobby" value="sport">
+	<label for="hobby">Спорт</label> <br>
+</form>
